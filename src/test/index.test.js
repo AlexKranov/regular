@@ -31,11 +31,11 @@ test('Validator constructor5', () => {
 });
 
 test('Validator constructor6', () => {
-  const validator = new Validator('-vasya');
+  const validator = new Validator('-alexey');
   expect(validator.validateUsername()).toBe(false);
 });
 
 test('Validator constructor9', () => {
-  const validator = new Validator('vasya-');
+  const validator = new Validator('alexey-');
   expect(validator.validateUsername()).toBe(false);
 });
