@@ -15,14 +15,5 @@
         "jest"
     ],
     "rules": {
-        "no-restricted-syntax": [
-            "error",
-            "LabeledStatement",
-            "WithStatement"
-          ],
-          "no-unused-vars": "off",
-          "prettier/prettier": "error",
-          "max-classes-per-file": "off",
-          "quotes": ["error", "double"]
     }
 }
